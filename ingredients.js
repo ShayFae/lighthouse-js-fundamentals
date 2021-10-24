@@ -14,8 +14,9 @@ while(i < ingredients.length) {
   i++
 }; 
 
-console.log("This is a for of loop: ")
-for(const ingredient of ingredients) {
-  
+//Forgot to reverse it, fail
+console.log("This is a for of loop in reverse: ")
+for(const ingredient of ingredients.reverse()) {
+  // ingredient = ingredients.reverse()
   console.log(ingredient)
-}
+};
