@@ -9,8 +9,8 @@ function chooseStations(stations) {
   for(const station of stations) {
     const cap = station[1];
     if(cap >= 20) {
-    // console.log(station[0]);
-      if(station[2] === "school" || "community center") {
+    const place = station[2];
+      if(place === "school" || place === "community center") {
         // console.log(station[2])
         // console.log(station[0] + ", " + station[2]);
         goodStations.push(station[0]);
