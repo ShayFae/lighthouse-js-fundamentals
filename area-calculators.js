@@ -16,7 +16,7 @@ function calculateTriangleArea(base, height) {
    return x;
 };
 
-//Math.PI gives me by and I had to times it by whatever the user wants to the power of two using Math.pow
+//Math.PI gives me PI and I had to times it by whatever the user wants to the power of two using Math.pow
 function calculateCircleArea(radius) {
   let p = Math.PI * Math.pow(radius, 2);
   if(p <= 0) {
